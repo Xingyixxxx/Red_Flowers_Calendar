@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的小红花花园</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zcool+KuaiLe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="prevMonth" class="nav-btn">◀</button>
+            <h1 id="monthDisplay">2023年 10月</h1>
+            <button id="nextMonth" class="nav-btn">▶</button>
+        </header>
+
+        <div class="stats-panel">
+            <span>本月收获: <span id="monthlyCount">0</span> 🌺</span>
+            <span>总共收获: <span id="totalCount">0</span> 🌺</span>
+        </div>
+
+        <div class="calendar-container">
+            <div class="week-headers">
+                <div>日</div><div>一</div><div>二</div><div>三</div><div>四</div><div>五</div><div>六</div>
+            </div>
+            <div class="garden-grid" id="calendar">
+                <!-- Calendar days will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

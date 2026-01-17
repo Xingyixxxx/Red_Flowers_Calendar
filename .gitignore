@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Specific
+data.json
+# We might want to keep data.json if you want to commit your history, 
+# but usually personal data is ignored. Uncomment the line above to ignore it. 
+# For now, I'll assume you might WANT to commit your initial garden, 
+# so I'll leave it commented out? actually, let's ignore it to be safe 
+# so you don't accidentally publish private records if you open source it later.
+# If you want to track your relationship data in git, remove 'data.json' from here.
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
