@@ -7,11 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('prevMonth').addEventListener('click', () => {
         currentDate.setMonth(currentDate.getMonth() - 1);
         renderCalendar();
+        updateStats();
     });
 
     document.getElementById('nextMonth').addEventListener('click', () => {
         currentDate.setMonth(currentDate.getMonth() + 1);
         renderCalendar();
+        updateStats();
     });
 });
 
